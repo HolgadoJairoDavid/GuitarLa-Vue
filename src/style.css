@@ -252,7 +252,7 @@ button {
 
 button,
 [type=button] {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled) {
@@ -296,7 +296,7 @@ button:not(:disabled),
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 
 .display-2 {
@@ -753,8 +753,6 @@ button:not(:disabled),
 }
 .header {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header.jpg");
-  /** TODO: Eliminar la sig linea **/
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../public/img/header.jpg");
   background-position: 50%;
   background-size: cover;
   position: relative;
